@@ -20,6 +20,7 @@ under the License.
 
 require dirname(__FILE__).'/gcategories.class.php';
 require dirname(__FILE__).'/glangandcurrency.class.php';
+include_once dirname(__FILE__).'/array_column.php';
 
 class GShoppingFlux extends Module
 {
@@ -33,7 +34,7 @@ class GShoppingFlux extends Module
     {
         $this->name = 'gshoppingflux';
         $this->tab = 'smart_shopping';
-        $this->version = '1.6.6';
+        $this->version = '1.6.7';
         $this->author = 'Dim00z';
 
         $this->bootstrap = true;
